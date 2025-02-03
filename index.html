@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header ">
         <div class="header__container">
             <h1 class="">
                 <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
@@ -165,7 +165,10 @@
         </div>
     </section>
     <section class="image-text-section image-text-section--image-full-width">
-        <img src="./dist/images/fundo_rei_leao.png" alt="Imagem com TV, computador, tablet e celular">
+        <picture>
+            <source media="(max-width:768px)" srcset="./dist/images/fundo_rei_leao_celular.png">
+            <img src="./dist/images/fundo_rei_leao.png" alt="Imagem com TV, computador, tablet e celular">
+        </picture>
         <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
             <h2 class="title">
                 Baixe filmes e séries
